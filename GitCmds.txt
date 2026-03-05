@@ -1,0 +1,49 @@
+git --version
+meaning: This command shows the intalled version of Git on your system.
+
+sudo apt install git
+meaning: Sudo- Runs the command with administrator permissions.
+         apt- Package manager used to install software.
+         install- Tell the system to install a package.
+        git- The name of the software being installed.
+
+git config --global user.name "sanskrutigarule"
+meaning: This command sets your username fot Git on your computer.
+
+git config --global user.email "sanskrutigarule@gmail.com"
+meaning: This command set your email address for Git on your computer.
+
+git config --global user.name "sanskrutigarule"
+meaning: This command sets "sanskrutigarule" as your Git username for all  projects on your computer.
+
+git config --global user.email "sanskrutigarule@gmail.com"
+meaning: This command sets "sanskrutigarule@gmail.com" as your email address for Git on your computer.
+
+git config --list 
+meaning:This command shows all the Git configuration seeting currently set on your system.
+
+cd dice-roller 
+meaning: This command changes the current directory to the folder named dice-roller.
+
+git init
+meaning: This command creates a new Git repository in your current folder. 
+         It started tracking your projects with Git.
+
+git add.
+meaning: This command adds all files in the current folder to the staging area.
+        It prepare all changes to be committed in Git.
+
+git commit -m "First project commit"
+meaning: This command saves yours stsged changes in Git with a message.
+          It create a snapshot of your projects with tht message.
+
+git remote add origin https://github.com/username/repository-name.git
+meaning: This command connects your local Git projects to GitHub repository.
+         It link your projects to GitHub so you can push your code online.
+
+git push -u origin main
+meaning: This command uploads yours local project to GitHub.
+         It pushes your code to the main branch on GitHub.
+
+
+
